@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Doc</title>
+ </head>
+ <body>
+    <!--Formularz-->
+    <b>
+        <a class="required">*</a> - 
+        Oznacza, że pole musi zostać wypełnione.
+    </b>
+    <br/>
+    <br/>
+    <b>
+        Dane Firmy:
+    </b>
+    <table>
+     <tr>
+        <td class = "OptionBox">
+            <label>Nazwa Firmy<a class="required">*</a></label>
+            <br/>
+            <input id="NazwaFirmy" class="required_" type="text"> 
+        </td>
+        <td>
+        </td>
+        <td class = "OptionBox">
+            <label> Rodzaj Działalności </label>
+            <input id="RD" type="text"> 
+        </td>
+     </tr>
+     <tr>
+        <td class = "OptionBox">
+            <label> NIP <a class="required">*</a> </label>
+            <br/>
+            <input id="NIP" class="required_" type="number"> 
+        </td>
+     </tr>
+     <tr>
+        <td class = "OptionBox">
+            <label>REGON</label>
+            <br/>
+            <input id="REGON" type="number"> 
+        </td>
+     </tr>
+     <tr>
+        <td class = "OptionBox">
+            <label>Telefon<a class="required">*</a> </label>
+            <br/>
+            <input id="TELEFON" class="required_" type="tel"> 
+        </td>
+     </tr>
+     <tr>
+        <td class = "OptionBox">
+            <label>FAX<a class="required">*</a> </label>
+            <br/>
+            <input id="FAX" class="required_" type="number"> 
+        </td>
+     </tr>
+     <tr>
+      <td class = "OptionBox">
+            <label>e-mail<a class="required">*</a> </label>
+            <br/>
+            <input id="EMAIL" class="required_" type="text"> 
+        </td>
+     </tr>
+     <tr>
+        <td class = "OptionBox">
+            <label>Strona WWW</label>
+            <br/>
+            <input id="WWW" type="text"> 
+        </td>
+        <td>
+        </td>
+        <td class = "OptionBox">
+            <label>Adres<a class="required">*</a></label>
+            <br/>
+            <input id="ADRES" class="required_" type="text"> 
+        </td>
+    </tr>
+    <tr>
+        <td class = "OptionBox">
+            <label>Kod Pocztowy<a class="required">*</a></label>
+            <br/>
+            <input id="KODPOCZTOWY" class="required_" type="text"> 
+        </td>
+        <td>
+        </td>
+        <td class = "OptionBox">
+            <label>Miasto<a class="required">*</a></label>
+            <br/>
+            <input id="MIASTO" class="required_" type="text"> 
+        </td>
+    </tr>
+    <tr>
+        <td>
+        </td>
+        <td class = "OptionBox">
+            <label>Chcę oddać wszystkie dane</label>
+            <br/>
+            <input class="INNEDANEOSOBOWE" type="checkbox"> 
+        </td>
+    </tr>
+    </table>
+    <br/> 
+    <input id="SUBMIT" type="submit" value="Potwierdź"> 
+    <br/>
+    <br/>
+    <a id="Sukces"></a>
+    <script src="JavaScript.js"></script>
+ </body>
+</html>
+

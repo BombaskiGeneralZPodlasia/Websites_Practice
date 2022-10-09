@@ -1,0 +1,16 @@
+table {
+ border-radius: 1px;
+ border-style: solid;
+ border-color: #4444ff;
+ border-spacing: 20px, 20px;
+ height: 1000;
+ width: 800;
+}
+td.OptionBox {
+    width: 120px;
+    height: 50px;
+}
+
+a.required {
+ color: red;
+}
